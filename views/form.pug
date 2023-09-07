@@ -1,0 +1,12 @@
+extends layout 
+
+block content 
+  h1 #{title}
+  form(method="POST" action="/new" class="form")
+    label(for="username") Enter user name 
+    input(type="text", name="userName", id="username", placeholder="username", required)
+    
+    label(for="msg") Enter your message 
+    textarea(name="userMessage", id="msg", cols="7", rows="5", required) 
+
+    input(type="submit")

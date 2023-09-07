@@ -1,0 +1,26 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input[type="text"]{
+  width: 225px;
+}
+
+form textarea{
+  width: 525px;
+}
+
+form input[type="submit"]{
+  width: 125px;
+}
